@@ -1,12 +1,52 @@
-# React + Vite
+# Dashboard 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dynamic CNAPP Dashboard built with React, Zustand, TailwindCSS, and Recharts. It allows users to visualize security and cloud posture data across different categories like CSPM Executive Dashboard, CWPP Dashboard, and Registry Scan. Users can add custom widgets by providing JSON data, which automatically renders as donut charts, vertical bar charts, or progress bars depending on the category. Widgets can also be searched, refreshed, or deleted, with changes persisted in local storage for a seamless experience. The dashboard is highly modular, responsive, and user-friendly, enabling interactive visualization of critical cloud and security metrics in real time.
 
-Currently, two official plugins are available:
+## Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Install my-project with npm
 
-## Expanding the ESLint configuration
+```bash
+npm install my-project
+cd my-project
+npm create vite@latest
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
+```
+
+## Run Locally
+
+Clone the project
+
+```bash
+git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+cd my-project
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the server
+
+```bash
+npm run dev
+```
+
+## Demo
+https://dashboard-using-reactjs.vercel.app
